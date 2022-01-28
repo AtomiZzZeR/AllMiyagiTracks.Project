@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+a:focus, a:active {
+  outline: 0;
+}
+
+a, a:visited, a:hover {
+  text-decoration: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+textarea {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  font-family: "Ms Sans Serif", sans-serif;
+  color: #fff;
+  background-color: #222;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+  text-align: center;
+  margin: 0px auto;
+}
+
+._container {
+  max-width: 1300px;
+  margin: 0px auto;
+  padding: 15px;
+}
+
+.span_miyagi {
+  color: red;
+}
+
+.span_andy {
+  color: Blue;
+}
+
+.span_diga {
+  color: Yellow;
+}
+
+.header__title {
+  border: 4px solid #000;
+  border-radius: 100px;
+  padding: 10px 20px;
+  display: inline-block;
+  max-width: 600px;
+  font-weight: bold;
+  font-size: 3rem;
+  text-transform: uppercase;
+  -webkit-box-shadow: 5px 5px 30px 1px #000;
+          box-shadow: 5px 5px 30px 1px #000;
+  margin: 0px 0px 30px 0px;
+}
+
+.header__title .span_red {
+  color: red;
+  font-size: 3.5rem;
+  border-radius: 5%;
+  padding: 5px 10px;
+  border: 3px dashed red;
+  -webkit-box-shadow: 0px 0px 10px 1px red;
+          box-shadow: 0px 0px 10px 1px red;
+}
+
+.header__top {
+  margin: opx auto;
+  max-width: 800px;
+  display: inline-block;
+}
+
+.header__sample {
+  padding: 10px;
+  border-radius: 100px;
+  display: inline-block;
+  border: 4px dotted red;
+  -webkit-box-shadow: 0px 0px 50px 1px red;
+          box-shadow: 0px 0px 50px 1px red;
+  font-size: 1.5rem;
+  margin: 0px 0px 15px 0px;
+}
+
+.header__sample .span_sample {
+  color: #999;
+  text-decoration: underline;
+}
+
+.header__example {
+  padding: 10px;
+  border-radius: 100px;
+  border: 4px dotted red;
+  -webkit-box-shadow: 0px 0px 50px 1px red;
+          box-shadow: 0px 0px 50px 1px red;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 0px 0px 50px 0px;
+}
+
+.header__example .span_example {
+  color: #999;
+  text-decoration: underline;
+}
+
+.main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  margin: 0px auto;
+  width: 100%;
+}
+
+.main__table {
+  font-size: 1.5rem;
+  padding: 15px;
+  border-radius: 2%;
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 50px 10px #111;
+          box-shadow: 0px 0px 50px 10px #111;
+}
+
+.main__table .td_main {
+  text-transform: uppercase;
+  border-radius: 10%;
+  font-weight: bold;
+  border-top: 5px solid red;
+}
+
+.main__table .td_main-1 {
+  border-radius: 100px;
+  border: 1px solid #fff;
+  background-color: #333;
+}
+
+.main__table .td_main-2 {
+  border-radius: 100px;
+  border: 1px solid red;
+  background-color: #222;
+}
+
+.main__table .td_hover {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.main__table .td_hover:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+  border-radius: 100px;
+  z-index: 100;
+}
+
+.main__table td {
+  padding: 20px 5px;
+  border: 1px dotted red;
+}
+
+::-webkit-scrollbar-button {
+  background-repeat: no-repeat;
+  width: 5px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #111;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background: -webkit-linear-gradient(355.74deg, #f00 9.51%, #f00 90.23%);
+  background: linear-gradient(94.26deg, #f00 9.51%, #f00 90.23%);
+}
+
+::-webkit-resizer {
+  background-repeat: no-repeat;
+  width: 4px;
+  height: 0px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
